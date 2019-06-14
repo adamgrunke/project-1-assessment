@@ -1,13 +1,19 @@
 body {
-    background-color: pink;
-    margin: 0 auto;
     text-align: center;
+
+}
+main{
+    width: 70%;
+    margin: 0 auto;
 
 }
 
 .btn {
     background-color: grey;
     color: white;
+    width: 10%;
+    height: 10%;
+
 }
 
 .btn:hover {
@@ -16,12 +22,19 @@ body {
 }
 
 p {
-    height: 20px;
+    height: 20%;
+    font-weight: bold;
 }
 
 input {
     border: 3px solid grey;
+    text-align: center;
+    width: 40%;
+}
 
+p, .btn, input {
+    font-size: 70px;
+    border-radius: 10px;
 }
 
 .red {
@@ -30,8 +43,4 @@ input {
 
 .black {
     color: black;
-}
-
-.neon {
-    color: greenyellow;
 }
